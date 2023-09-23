@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.bottom .circle {
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: -200px auto;
+  background-color: #ddd;
+  border-radius: 300px;
+}
+.bottom .circle ul {
+  list-style-type: none;
+}
+.bottom .circle #circle_0 {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  position: absolute;
+  box-shadow: 100px 30px rgba(153, 153, 153, 0.6);
+}
+.bottom .circle #circle_1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: absolute;
+  box-shadow: 180px 60px rgba(153, 153, 153, 0.6);
+}
+.bottom .circle #circle_2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  box-shadow: 80px 75px rgba(153, 153, 153, 0.6);
+}
+.bottom .circle #circle_3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  position: absolute;
+  box-shadow: 240px 80px rgba(153, 153, 153, 0.6);
+}
+
+.container {
+  width: 100%;
+}
+.container .hello {
+  justify-content: left;
+  display: grid;
+  margin: 200px 250px auto;
+  font-family: "Roboto";
+}
+.container .hello h1 {
+  color: white;
+  font-size: 50px;
+}
+.container .hello p {
+  font-size: 25px;
+  color: white;
+}
+.container .solar {
+  float: right;
+  right: 30%;
+  margin: -60px -50px auto;
+  font-family: "Roboto";
+  position: relative;
+}
+.container .solar ul {
+  cursor: pointer;
+  list-style-type: none;
+}
+.container .solar ul .sun {
+  width: 70px;
+  height: 70px;
+  transition: 300ms;
+  border-radius: 100px;
+  background-color: #f76724;
+  box-shadow: 0px 0px 20px 2px #f38857;
+  position: absolute;
+}
+.container .solar ul .sun p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(400%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .sun .__empty_circle_00 {
+  position: absolute;
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  border: 0.7px solid #ddd;
+  outline: none;
+  transform: rotate(-45deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto -60px;
+}
+.container .solar ul .sun .__empty_circle_01 {
+  position: absolute;
+  border-radius: 300px;
+  width: 300px;
+  height: 300px;
+  border: 0.7px solid #ddd;
+  outline: none;
+  transform: rotate(-45deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto -110px;
+}
+.container .solar ul .sun .__empty_circle_02 {
+  position: absolute;
+  border-radius: 400px;
+  width: 400px;
+  height: 400px;
+  border: 0.7px solid #ddd;
+  outline: none;
+  transform: rotate(-45deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto -160px;
+}
+.container .solar ul .sun .__empty_circle_03 {
+  position: absolute;
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+  border: 0.7px solid #ddd;
+  outline: none;
+  transform: rotate(-45deg);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto -210px;
+}
+.container .solar ul .sun:hover {
+  transition: 300ms;
+}
+.container .solar ul .sun:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .mercury {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #a5a5a5;
+  box-shadow: 0px 0px 20px 2px #a5a5a5;
+  position: absolute;
+  transform: translate(-100%, -200%);
+}
+.container .solar ul .mercury p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(150%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .mercury:hover {
+  transition: 300ms;
+}
+.container .solar ul .mercury:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .venus {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #fc7171;
+  box-shadow: 0px 0px 20px 2px #fc7171;
+  position: absolute;
+  transform: translate(-300%, -100%);
+}
+.container .solar ul .venus p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(250%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .venus:hover {
+  transition: 300ms;
+}
+.container .solar ul .venus:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .earth {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: linear-gradient(45deg, #71bdfc, #8eca6b, #70a154);
+  box-shadow: 0px 0px 20px 2px #71bdfc;
+  position: absolute;
+  transform: translate(410%, 100%);
+}
+.container .solar ul .earth p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(220%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .earth:hover {
+  transition: 300ms;
+}
+.container .solar ul .earth:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .mars {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #eba31d;
+  box-shadow: 0px 0px 20px 2px #eba31d;
+  position: absolute;
+  transform: translate(-450%, 550%);
+}
+.container .solar ul .mars p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(200%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .mars:hover {
+  transition: 300ms;
+}
+.container .solar ul .mars:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .jupiter {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #ccb07c;
+  box-shadow: 0px 0px 20px 2px #ccb07c;
+  position: absolute;
+  transform: translate(250%, 400%);
+}
+.container .solar ul .jupiter p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(300%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .jupiter:hover {
+  transition: 300ms;
+}
+.container .solar ul .jupiter:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .saturn {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #b1a389;
+  box-shadow: 0px 0px 20px 2px #b1a389;
+  position: absolute;
+  transform: translate(100%, -300%);
+}
+.container .solar ul .saturn p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(300%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .saturn:hover {
+  transition: 300ms;
+}
+.container .solar ul .saturn:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .uranus {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #2e81ec;
+  box-shadow: 0px 0px 20px 2px #2e81ec;
+  position: absolute;
+  transform: translate(500%, -200%);
+}
+.container .solar ul .uranus p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(300%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .uranus:hover {
+  transition: 300ms;
+}
+.container .solar ul .uranus:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .neptune {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #6ca4ee;
+  box-shadow: 0px 0px 20px 2px #6ca4ee;
+  position: absolute;
+  transform: translate(-500%, 200%);
+}
+.container .solar ul .neptune p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(300%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .neptune:hover {
+  transition: 300ms;
+}
+.container .solar ul .neptune:hover p {
+  opacity: 1;
+  transition: 300ms;
+}
+.container .solar ul .pluto {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color: #c2c2c2;
+  box-shadow: 0px 0px 20px 2px #c2c2c2;
+  position: absolute;
+  transform: translate(-600%, 1400%);
+}
+.container .solar ul .pluto p {
+  color: white;
+  justify-content: center;
+  display: flex;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: 300ms;
+}
+.container .solar ul .pluto:hover {
+  transition: 300ms;
+}
+.container .solar ul .pluto:hover p {
+  opacity: 1;
+  transition: 300ms;
+}/*# sourceMappingURL=home.style.css.map */

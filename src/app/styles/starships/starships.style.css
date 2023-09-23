@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.toggle-mode {
+  opacity: 0;
+  transition: 300ms;
+}
+
+.showCase {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  font-family: "Roboto";
+}
+.showCase .prev {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  margin: auto -100px;
+  cursor: pointer;
+  color: white;
+}
+.showCase .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 0;
+  margin: auto -100px;
+  color: white;
+}
+.showCase ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 130px auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 5rem;
+}
+.showCase ul li h1 {
+  color: white;
+  text-align: center;
+  margin: 5px;
+}/*# sourceMappingURL=starships.style.css.map */

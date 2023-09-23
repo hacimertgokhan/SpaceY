@@ -1,94 +1,41 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import './styles/home/home.style.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main>
+      <div>
+        <div className='container'>
+          <div className='hello'>
+            <h1>We're  Ready For Mars !</h1>
+            <p>Everything is ready for the launch in 2024!</p>
+          </div>
+          <div className='solar'>
+            <ul>
+              <li><span className='sun'><p>Sun</p>
+              <div className='__empty_circle_00'></div>
+              <div className='__empty_circle_01'></div>
+              <div className='__empty_circle_02'></div>
+              <div className='__empty_circle_03'></div>
+              </span></li>
+              <li><span className='mercury'><p>Mercury</p></span></li>
+              <li><span className='venus'><p>Venus</p></span></li>
+              <li><span className='earth'><p>Earth</p></span></li>
+              <li><span className='mars'><p>Mars</p></span></li>
+            </ul>
+          </div>
         </div>
+        
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className='bottom'>
+        <div className='circle'>
+          <ul>
+            <li><span id='circle_0'></span></li>
+            <li><span id='circle_1'></span></li>
+            <li><span id='circle_2'></span></li>
+            <li><span id='circle_3'></span></li>
+          </ul>
+        </div>
       </div>
     </main>
   )

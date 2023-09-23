@@ -1,0 +1,54 @@
+#__planet00 {
+    content:" ";
+    background: transparent;
+    box-shadow: 841px 1771px #8BCEE4;
+    animation: animStar 5s linear infinite;
+    z-index:0;
+}
+#__planet00:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 60px;
+    border-radius: 60px;
+    height: 60px;
+    background: transparent;
+    box-shadow: 841px 1771px 10px 1px #8BCEE4;
+}
+
+#__planet01 {
+    content:" ";
+    background: transparent;
+    z-index:0;
+    box-shadow: 341px 1071px #dfbd27;
+    animation: animStar 5s linear infinite;
+}
+#__planet01:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 80px;
+    border-radius: 60px;
+    height: 80px;
+    background: transparent;
+    box-shadow: 341px 1071px 10px 1px #dfbd27;
+}
+
+
+#__planet02 {
+    z-index:0;
+    content:" ";
+    background: transparent;
+    box-shadow: 941px 671px #af4b2d;
+    animation: animStar 5s linear infinite;
+}
+#__planet02:after {
+    content: " ";
+    position: absolute;
+    top: 2000px;
+    width: 80px;
+    border-radius: 60px;
+    height: 80px;
+    background: transparent;
+    box-shadow: 941px 671px 15px 1px #af4b2d;
+}
