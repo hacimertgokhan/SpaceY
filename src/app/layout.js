@@ -1,6 +1,7 @@
 import './globals.css'
 import './styles/stars/stars.css'
 import './styles/stars/planets.css'
+import { Analytics } from '@vercel/analytics/react';
 
 import Link from 'next/link'
 
@@ -58,6 +59,7 @@ export default function RootLayout({ children }) {
 
 
         </body>
+        <Analytics/>
     </html>
   )
 }
